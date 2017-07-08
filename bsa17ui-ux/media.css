@@ -97,6 +97,16 @@ header{
 
 }
 
+@media screen and (max-width:710px){
+    .content_news{
+    flex-direction: column;
+    align-items: center;
+   }
+.content_news-preview {
+    width: 80%;
+    }
+}
+
 @media screen and (min-width:320px) and (max-width:450px){
 .header-nav{
     padding-left: 0;
