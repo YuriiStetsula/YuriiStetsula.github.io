@@ -1,0 +1,165 @@
+@media screen and (max-width:1090px){
+
+.header-logo {
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    }
+
+.header-logo img {
+    max-width: 190px;
+    margin: 0;
+    }
+
+.header-search{
+    width: 30%
+    }
+
+.header-nav{
+    width:50%;
+    }
+
+}
+
+@media screen and (max-width:916px){
+.side-desc{
+    display: none;
+    }
+
+.sidebar{
+    width:70px;
+    }
+
+.sidebar-nav a {
+    text-align: center;
+    height: 70px;
+    padding: 15px 0 0 0;
+    /* padding-top: 50px; */
+    /* padding-bottom: 20%; */
+    }
+
+.nav-icon_news{
+     position: static;
+    }
+
+.wrapper-content{
+    margin-left:70px;
+    width: calc(100% - 70px)
+    }
+
+.content_news-preview{
+    width:45%;
+    }
+}
+
+@media screen and (max-width: 826px){
+header{
+     overflow: hidden;
+    }
+
+.header-logo{
+    float:none;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+ 
+    
+    }
+.header-search{
+    float:none;
+    background-color: white;
+    width:100%;
+    }
+.header-nav{
+    float:none;
+    background-color: white;
+    width:100%;
+    padding-bottom: 25px;
+    }
+.header-nav ul{
+    text-align: center;
+    }
+
+.burger-btn{
+    display: block;
+    cursor: pointer;
+    }
+
+.content-history_dsc {
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 4px 7px 5px 12px;
+}
+
+}
+
+@media screen and (min-width:320px) and (max-width:450px){
+.header-nav{
+    padding-left: 0;
+    }
+  
+.header-nav ul li {
+    display: block;
+    
+}
+.header-nav ul li a{
+    display: block;
+    width: 100%;
+    padding: 15px;
+   }
+
+   .sidebar{
+    width:40px;
+   }
+
+   .wrapper-content {
+    margin-left: 40px;
+    width: calc(100% - 40px);
+}
+
+.content_news{
+    flex-direction: column;
+    align-items: center;
+   }
+.content_news-preview {
+    width: 80%;
+    }
+
+.content-history_dsc {
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 4px 7px 5px 12px;
+}
+}
+
+@media screen and (min-width:2000px){
+header{
+    max-width: 2000px;
+    }
+
+.main-wrapper{
+    max-width: 2000px;
+    margin: 0 auto;
+    }
+
+.sidebar{
+    width: 300px;
+}
+
+.wrapper-content {
+ 
+    width: 85%;
+    height: 100%;
+}
+
+.content-history_dsc {
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 40px 77px 55px 125px;
+}
+
+}
